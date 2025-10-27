@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gallery-container" id="gallery">
+        <h1>My Gallery</h1>
+        <div class="filter-buttons">
+            <button class="filter-btn" data-filter="Landscapes">Landscapes</button>
+            <button class="filter-btn" data-filter="Portraits">Portraits</button>
+            <button class="filter-btn" data-filter="Architecture">Architecture</button>
+        </div>
+    </div>
+
+    <div class="image-grid">
+        <div class="gallery-item landscapes">
+        <div class="image-card" id="landscapes">
+            <img src="https://images.photowall.com/products/42556/summer-landscape-with-river.jpg?h=699&q=85" alt="landscape">
+            <div class="card-content">
+                <h3>Summer Meadow by the River</h3>
+                <span class="category-tag">Landscape / Nature Photography</span>
+            </div>
+            <div class="card-overlay">
+                    <p>A tranquil summer scene featuring a gently winding river flanked by lush green grass and wildflowers. A dense forest climbs the hillside in the background under a clear blue sky with a few fluffy clouds. Overhanging tree branches frame the scene, while dappled sunlight brings warmth and life to the meadow and water.</p>
+             </div>
+        </div>
+        </div>
+
+        <div class="gallery-item portraits">
+        <div class="image-card" id="portraits">
+            <img src="https://images.stockcake.com/public/a/1/3/a13b303a-a843-48e3-8c87-c0ac0314a282_large/intense-male-portrait-stockcake.jpg" alt="portrait">
+            <div class="card-content">
+                <h3>Intensity in the Gaze</h3>
+                <span class="category-tag">Portrait Photography / Dramatic Head & Shoulders</span>
+            </div>
+            <div class="card-overlay">
+                    <p>A striking close-up of a man, his face framed tightly so that his intense expression dominates the image. The lighting is dramatic — likely a single directional light source — creating deep shadows and high contrast that emphasize his bone-structure and the focused look in his eyes. His brows are slightly furrowed and his lips set in a firm line, giving a sense of determination or contemplation. The muted or dark background keeps attention on his face, while the subtle texture of his skin and stubble adds realism and grit. This image projects moodiness, internal strength, and the raw depth of human emotion.</p>
+             </div>
+        </div>
+        </div>
+
+        <div class="gallery-item landscapes">
+        <div class="image-card" id="landscapes">
+            <img src="https://media.istockphoto.com/id/1469510156/photo/sunset-on-bell-pass-in-the-majestic-mcdowell-mountains.webp?b=1&s=612x612&w=0&k=20&c=80_KFJgO8JCmx74BZ-lLi-l8VsAU3oJ06XM3lw32lTs=" alt="landscape">
+            <div class=" card-content">
+                <h3>Golden Glow Over Bell Pass</h3>
+                <span class="category-tag">Landscape Photography / Sunset Scenic</span>
+            </div>
+            <div class="card-overlay">
+                    <p>A radiant sunset bathes Bell Pass in the rugged McDowell Mountains (Arizona) with a palette of warm oranges, pinks and purples sweeping across the sky. The low sunlight softly illuminates the rocky terrain, casting long shadows and enhancing the textures of the rugged slopes. In the foreground, native desert vegetation silhouettes against the glowing backdrop, while the mid-ground shows a natural ridge line leading the eye toward glowing cloud formations. The scene conveys a moment of calm and grandeur — the desert landscape transitioning from day into twilight with a sense of timeless natural beauty.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item architecture">
+        <div class="image-card" id="architecture">
+            <img src="https://images.unsplash.com/photo-1518005020951-eccb494ad742?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8YXJjaGl0ZWN0dXJlfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000" alt="architecture">
+            <div class="card-content">
+                <h3>Wave of Steel & Sky</h3>
+                <span class="category-tag">Architecture / Contemporary Exterior</span>
+            </div>
+            <div class="card-overlay">
+                <p>A striking view of a modern architectural façade, composed of sweeping curves of metal and glass that frame a vivid blue sky. The structure’s fluid lines evoke movement and openness, while the reflective surfaces and crisp edges underscore precision and design intent. The photograph captures the moment where human-made form meets natural light — the smooth metal bands create rhythmic patterns that draw the eye upward and inward, giving the building a sense of soaring elegance and serene strength.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item landscapes">
+        <div class="image-card" id="landscapes">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4zxYWa94p47LieKZd24M03-Oa3V_B9YT7jg&s" alt="landscape">
+            <div class="card-content">
+                <h3>Mirror In the Mist</h3>
+                <span class="category-tag">Landscape / Surreal Photography</span>
+            </div>
+            <div class="card-overlay">
+                <p>A mysterious, atmospheric scene where the subject — perhaps a lone tree or structure — stands partially obscured by swirling mist or fog. The soft, diffused light gives the environment a dream-like quality, with muted tones and subtle contrasts that evoke quiet introspection. The isolation of the subject within the hazy surroundings suggests themes of solitude, reflection, and the boundary between reality and impression.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item portraits">
+        <div class="image-card" id="portraits">
+            <img src="https://www.99inspiration.com/wp-content/uploads/2016/03/Beautiful-Conceptual-Portraits-Photograph-by-Alex-Currie-99-835x1024.jpg" alt="portrait">
+            <div class="card-content">
+                <h3>Whispered Worlds</h3>
+                <span class="category-tag">Fine Art Portrait</span>
+            </div>
+            <div class="card-overlay">
+                <p> The photograph by Alex Currie captures a singular figure immersed in a dream-like atmosphere — the subject appears surrounded by textured elements and soft lighting, evoking a sense of introspection and surreal narrative. The muted palette and subtle environmental cues draw the viewer in, hinting at an inner story of identity, transformation or the threshold between reality and imagination. With minimal distractions and strong compositional focus on the face or posture of the subject, the image invites you to pause, reflect and engage emotionally with the moment being portrayed.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item landscapes">
+        <div class="image-card" id="portraits">
+            <img src="https://wallup.net/wp-content/uploads/2016/06/23/381683-nature-landscape-photography-river-grass-sunset-trees.jpg" alt="landscape">
+            <div class="card-content">
+                <h3>Golden Reflections: Sunset Over Tranquil Waters</h3>
+                <span class="category-tag">Landscape Photography</span>
+            </div>
+            <div class="card-overlay">
+                <p>This captivating scene captures the tranquil beauty of a river meandering through lush grasslands at sunset. The sky is painted in warm hues of gold and orange, reflecting off the calm waters below. Silhouettes of trees line the horizon, adding depth and contrast to the composition. The gentle flow of the river and the soft rustling of the grass evoke a sense of peace and timelessness, inviting viewers to pause and immerse themselves in nature's embrace.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item architecture">
+        <div class="image-card" id="architecture">
+            <img src="https://th.bing.com/th/id/R.0c4ff07eb84ec8de2357ab423a814f97?rik=c4NcX3K2%2bCzAdw&pid=ImgRaw&r=0" alt="architecture">
+            <div class="card-content">
+                <h3>Grand Hall Under the Arched Skylight</h3>
+                <span class="category-tag">Architecture / Interior Photography</span>
+            </div>
+            <div class="card-overlay">
+                <p>This image captures the magnificent interior of a grand architectural hall, featuring sweeping arches, inticrate artwork, and expansive skylights that flood the space with soft natural light. The symmetrical design and soaring ceilings evoke a sense of awe and reverence, highlighting the craftmanship and historic beauty of the structure. The mood is both serene and majestic, emphasizing the harmony between light, shadow and architectural detail.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item architecture">
+        <div class="image-card" id="architecture">
+            <img src="https://media.cntraveler.com/photos/680fc3841466aa3f8e7228d6/1:1/w_3939,h_3939,c_limit/GettyImages-2164303607.jpg" alt="architecture">
+            <div class="card-content">
+                <h3>Flow of Modern Form</h3>
+                <span class="category-tag">Modern Architecture</span>
+            </div>
+            <div class="card-overlay">
+                <p>This image showcases a striking example of modern architecture, characterized by its fluid, wave-like curves and seamless integration of glass and white-panel surfaces. The building's organic form reflects light gracefully, creating harmonious balance between movement and stability.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item portraits">
+        <div class="image-card" id="portraits">
+            <img src="https://slrlounge.com/wp-content/uploads/2017/06/feathering.png" alt="portrait">
+            <div class="card-content">
+                <h3>Shadow and Poise</h3>
+                <span class="category-tag">Portrait Photography</span>
+            </div>
+            <div class="card-overlay">
+                <p>This image features a striking portrait that blends elegance with mystery. The subject is illuminated by soft, directional lighting that highlights her facial contours and textured coat, creating a dramatic interplay of light and shadow.</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item architecture">
+        <div class="image-card" id="architecture">
+            <img src="https://www.zuerich.com/sites/default/files/image/2021/web_zuerich_rwi_bibliothek_architektur_1600x900_22624.jpg" alt="architecture">
+            <div class="card-content">
+                <h3>Harmony in Curves</h3>
+                <span class="category-tag">Architectural Photography</span>
+            </div>
+            <div class="card-overlay">
+                <p>This image captures the grandeur of a contemporary architectural interior defined by sweeping, layered curves and warm, natural tones. The soft wooden textures contrast elegantly with the polished white floor, while the interplay of light accentuates the building's rhythmic form. </p>
+            </div>
+        </div>
+        </div>
+
+        <div class="gallery-item portraits">
+        <div class="image-card" id="portraits">
+            <img src="https://images.stockcake.com/public/a/9/f/a9f6f105-32f3-44d2-9a5e-1c57e9f88f53_large/vintage-portrait-girl-stockcake.jpg" alt="portrait">
+            <div class="card-content">
+                <h3>Innocence in Time</h3>
+                <span class="category-tag">Portrait Photography</span>
+            </div>
+            <div class="card-overlay">
+                <p>This black-and-white portrait captures the timeless charm and purity of childhood.The girl's gentle expression and softly curled hair evoke a sense of warmth and nostalgia, while the delicate floral dress and blurred background contribute to the photograph's classic aesthetic.</p>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
